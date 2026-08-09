@@ -1,0 +1,590 @@
+{
+  "model_id": "local/deepfak-audio_detection_final",
+  "dataset_dir": "D:\\PYTHON PROJECTS\\Share\\NetworkShare\\VoiceTrining\\dist\\deepvoice_segments_50",
+  "evaluated_files": 100,
+  "skipped_files": 0,
+  "accuracy": 0.5,
+  "confusion_matrix": {
+    "labels": [
+      "fake",
+      "real"
+    ],
+    "rows_are_actual": true,
+    "columns_are_predicted": true,
+    "values": [
+      [
+        0,
+        50
+      ],
+      [
+        0,
+        50
+      ]
+    ]
+  },
+  "class_metrics": {
+    "fake": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "real": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6667
+    }
+  },
+  "mistakes": [
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_1.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9996,
+      "probabilities": {
+        "real": 0.9996,
+        "fake": 0.0004
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_10.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_11.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9995,
+      "probabilities": {
+        "real": 0.9995,
+        "fake": 0.0005
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_12.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_13.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9996,
+      "probabilities": {
+        "real": 0.9996,
+        "fake": 0.0004
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_14.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_15.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_16.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_17.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9996,
+      "probabilities": {
+        "real": 0.9996,
+        "fake": 0.0004
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_18.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_19.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_2.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_20.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9996,
+      "probabilities": {
+        "real": 0.9996,
+        "fake": 0.0004
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_21.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_22.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_23.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_24.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_25.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_26.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_27.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_28.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_29.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_3.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9995,
+      "probabilities": {
+        "real": 0.9995,
+        "fake": 0.0005
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_30.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_31.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9895,
+      "probabilities": {
+        "real": 0.9895,
+        "fake": 0.0105
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_32.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_33.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_34.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_35.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_36.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9995,
+      "probabilities": {
+        "real": 0.9995,
+        "fake": 0.0005
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_37.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9994,
+      "probabilities": {
+        "real": 0.9994,
+        "fake": 0.0006
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_38.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9996,
+      "probabilities": {
+        "real": 0.9996,
+        "fake": 0.0004
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_39.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_4.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_40.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_41.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_42.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_43.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9949,
+      "probabilities": {
+        "real": 0.9949,
+        "fake": 0.0051
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_44.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_45.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9993,
+      "probabilities": {
+        "real": 0.9993,
+        "fake": 0.0007
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_46.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_47.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9994,
+      "probabilities": {
+        "real": 0.9994,
+        "fake": 0.0006
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_48.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_49.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_5.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_50.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_6.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9994,
+      "probabilities": {
+        "real": 0.9994,
+        "fake": 0.0006
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_7.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9998,
+      "probabilities": {
+        "real": 0.9998,
+        "fake": 0.0002
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_8.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9993,
+      "probabilities": {
+        "real": 0.9993,
+        "fake": 0.0007
+      },
+      "correct": false
+    },
+    {
+      "file": "dist\\deepvoice_segments_50\\FAKE\\FAKE_seg_9.wav",
+      "actual": "fake",
+      "predicted": "real",
+      "confidence": 0.9997,
+      "probabilities": {
+        "real": 0.9997,
+        "fake": 0.0003
+      },
+      "correct": false
+    }
+  ],
+  "skipped": []
+}
